@@ -152,7 +152,6 @@ class _InputPageState extends State<InputPage> {
               value: _teamSelected,
               items: _getDropdownItems(),
                onChanged:(value) {
-                print(value);
                 setState(() {
                   _teamSelected = value;
                 });
